@@ -126,12 +126,6 @@ conda activate cuda101
 python run.py
 ```
 
-或者使用主检测器程序：
-
-```bash
-python AIDetector_pytorch.py
-```
-
 ### 处理视频文件
 
 将待处理的视频文件放入 `videos/` 目录中，程序会自动识别并处理该目录中的视频文件。处理完成后，结果会保存到指定位置，您可以在输出中查看检测和跟踪的结果。
@@ -162,3 +156,4 @@ python AIDetector_pytorch.py
 - YOLOv4 原始论文和官方实现
 - DeepSORT 论文及开源实现
 - PyTorch 官方文档
+
